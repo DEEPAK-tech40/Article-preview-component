@@ -4,6 +4,9 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ## Overview
 
+![desktop-preview](https://user-images.githubusercontent.com/94350356/194756379-78178f2f-9a29-4226-ba91-8a58e23af18b.jpg)
+
+
 ### The challenge
 
 Users should be able to:
@@ -13,7 +16,22 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop-view:
+
+![desktop-design](https://user-images.githubusercontent.com/94350356/194756392-3ec33abf-dd63-4568-bcc8-4b5ea0b9556d.jpg)
+
+Active-state[Desktop]:
+
+![desktop-active-state](https://user-images.githubusercontent.com/94350356/194756403-87a970a4-e1c2-4d90-b167-96e3b32d7e60.jpg)
+
+Mobile-view:
+
+![mobile-design](https://user-images.githubusercontent.com/94350356/194756422-c692f4f0-13c1-4c8a-88f9-69cdc7cfcfab.jpg)
+
+Active-state[Mobile]:
+
+![mobile-active-state](https://user-images.githubusercontent.com/94350356/194756429-ad4e33f4-fe97-43c9-bad2-8c608af2ec34.jpg)
+
 
 ### Links
 
