@@ -200,7 +200,6 @@ footer a {
 
     .share {
         position: relative;
-        display: flex;
         top: -75%;
         left: 55%;
         height: 4.2rem;
