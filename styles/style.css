@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+:root {
+    --bodyBg: hsl(210, 46%, 95%);
+    --headerBg: hsl(217, 19%, 35%);
+    --paraBg: hsl(214, 17%, 51%);
+    --shareBg: hsl(212, 23%, 69%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bodyBg);
+    gap: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 21.5rem;
+    height: 36.5rem;
+    gap: 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h2 {
+    color: var(--headerBg);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p {
+    color: var(--paraBg);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+section {
+    /* height: 21rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-img img {
+    width: 100%;
+    height: 13rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 28px;
+}
+
+article {
+    position: relative;
+}
+
+.second {
+    height: 6rem;
+}
+
+.avatar,
+.share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px 28px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.avatar img {
+    border-radius: 50px;
+    width: 3rem;
+}
+
+.avatar figcaption {
+    margin: 0px 20px;
+}
+
+.avatar figcaption p {
+    line-height: 1.5;
+}
+
+.date {
+    font-weight: 500;
+}
+
+.name {
+    color: var(--headerBg);
+    font-weight: 700;
+}
+
+.share-icon,
+.share figure {
+    width: 2.5rem;
+    background-color: var(--bodyBg);
+    border-radius: 50px;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.share-icon img,
+.share figure img {
+    height: 45%;
+    width: 50%;
+}
+
+.avatar figcaption {
+    display: flex;
+    flex-direction: column;
+}
+
+.share {
+    background-color: var(--headerBg);
+    display: none;
+    gap: 17px;
+}
+
+.share img {
+    width: 1.45rem;
+    height: 1.35rem;
+}
+
+.share p {
+    color: var(--shareBg);
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin: 0px 8px 0px 0px;
+}
+
+.share figure {
+    background-color: var(--paraBg);
+}
+
+.share figure img {
+    filter: brightness(50);
+}
+
+div {
+    display: none;
+}
+
+footer a {
+    color: var(--headerBg);
+    text-decoration: none;
+}
+
+@media screen and (min-width:500px) {
+    main {
+        width: 50rem;
+        height: 20.5rem;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .main-img img {
+        height: 100%;
+        width: 20rem;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    section {
+        gap: 5px;
+        padding: 35px 10px 15px 20px;
+    }
+
+    header h2 {
+        font-size: 22px;
+    }
+
+    .avatar {
+        display: flex !important;
+    }
+
+    .share {
+        position: relative;
+        display: flex;
+        top: -75%;
+        left: 55%;
+        height: 4.2rem;
+        width: 20rem;
+        border-radius: 10px;
+        gap: 20px;
+        box-shadow: 0px 2px 5px var(--paraBg);
+    }
+
+    .share p {
+        margin-left: 1.5rem;
+    }
+
+    .share figure {
+        position: relative;
+        left: -45%;
+        top: 121%;
+        margin-left: -30px;
+    }
+
+    div {
+        display: block;
+        position: relative;
+        margin-left: -50px;
+        width: 1.6rem;
+        height: 1.6rem;
+        background-color: var(--headerBg);
+        top: 48%;
+        right: 45.8%;
+        rotate: 45deg;
+    }
+}
