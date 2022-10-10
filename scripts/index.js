@@ -1,7 +1,7 @@
 const shareEl = document.querySelector(".share");
 const avtEl = document.querySelector(".avatar");
 const avBtn = document.querySelector(".share-icon");
-const shBtn = document.querySelector(".share figure");
+const shBtn = document.querySelector(".share span");
 
 shBtn.addEventListener("click", function () {
   shareEl.style.display = "none";
