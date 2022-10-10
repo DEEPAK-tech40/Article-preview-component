@@ -35,8 +35,8 @@ Active-state[Mobile]:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/articlepreviewcomponent-4HqAtfmlmz)
+- Live Site URL: [Live Site](https://deepak-tech40-articlepreview.netlify.app/)
 
 ## My process
 
@@ -53,11 +53,19 @@ Active-state[Mobile]:
 This challenge was very useful for practising postioning.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.div {
+        display: block;
+        position: relative;
+        margin-left: -50px;
+        width: 1.6rem;
+        height: 1.6rem;
+        background-color: var(--headerBg);
+        top: 48%;
+        right: 45.8%;
+        rotate: 45deg;
+    }
 ```
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@DEEPAK-tech40](https://www.frontendmentor.io/profile/DEEPAK-tech40)
